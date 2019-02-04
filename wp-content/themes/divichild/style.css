@@ -1,0 +1,428 @@
+/*
+Theme Name: divi child
+Description: Theme enfant de Yvon Newmans
+Author: Yvon - Newmanstech
+Author URI: https://www.newmanstech.com
+Template: divi 
+Version: 0.1.0
+*/
+
+#page-container{
+    padding-top: 0px !important;
+}
+
+#main-header, #main-footer{
+    display: none ;
+}
+
+#premiere_section{
+     background-color: #232323;
+     transition: all .5s;
+}
+
+#logo{
+    width: 23% !important;
+    height: 27% !important;
+    top: 6px !important;
+    left: 0px !important;
+}
+
+/* .dark #logo{
+    width: 20% !important;
+    height: 28% !important;
+    top: 6px !important;
+    left: 4px !important;
+}
+
+#logo img.dark{
+    background-color: white;
+    border-radius: 52%;
+} */
+
+#navigation-toggle{
+    line-height: 20px !important;
+}
+
+#bottom-images h3{
+    color: white;
+    opacity: 0;
+    font-size: 1.5em;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#bottom-images{
+    z-index: 12;
+}
+
+#bottom-images img{
+    width: 40px;
+}
+
+#scroll_down{
+    cursor: pointer;
+}
+
+/*----------5 Columns----------*/
+ 
+.five-columns .et_pb_module {
+    float: left;
+    width: 20%!important;
+}
+ 
+@media only screen and (max-width: 980px) {
+     
+.five-columns .et_pb_module {
+    width: 33%!important; 
+    }
+}
+ 
+@media only screen and (max-width: 479px) {
+     
+.five-columns .et_pb_module {
+    width: 50%!important;
+    }
+}
+
+.overlay_fivecolumns{
+    background-color : rgba(255, 255, 255, 0.6); 
+    position:absolute; 
+    bottom: 0px; 
+    height: 550px;
+    visibility: hidden;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overlay_on_fivecolumns{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0px;
+    height: 420px;
+    width: 270px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay_on_fivecolumns span, .overlay_fivecolumns span{
+     font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.overlay_fivecolumns p{
+     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+        background: #18ded4;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 130px;
+    cursor: pointer;
+}
+
+
+.overlay_fivecolumns span{
+    margin-bottom: 50%;
+    color: #ff3a00;
+}
+
+.et_pb_map{
+    border: 2px solid #ff3a00;
+    height: 380px;
+}
+
+.et_pb_section_2 {
+    height: 500px;
+}
+
+.fa_home_white{
+    color: white;
+}
+
+.fa_home_red{
+    color: #ff3a00;
+}
+
+.fas.fa-home{
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+}
+
+#home .fas.fa-home{
+    cursor: pointer;
+}
+
+.fas.fa-arrow-left {
+    /* transform: rotate(90deg); */
+    font-size: 40px;
+}
+
+#main-nav:before{
+    background-color: rgba(24, 222, 212, 0.6) !important;
+}
+
+#main-nav.open #navigation-toggle,
+#main-nav:hover #navigation-toggle {
+    color:#fff !important;
+}
+
+#fb-container{
+    position: absolute;
+    display: block;
+    text-transform: none;
+    width: 40px;
+    bottom: 68px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#twitter-container{
+    position: absolute;
+    display: block;
+    text-transform: none;
+    width: 40px; 
+    bottom: 32px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 100;
+    cursor: pointer;
+}
+
+ #insta-container{
+    position: absolute;
+    display: block;
+    text-transform: none;
+    width: 40px;
+    height: 25px;
+    bottom: 32px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#main-nav.open{
+    background: rgba(24, 222, 212, 0.6) !important;
+}
+
+#main-nav.open ul li a{
+    color: white !important;
+}
+
+#main-nav ul li a, #main-nav #credit, #main-nav #credit a{
+    color: white !important;
+}
+
+.et_pb_fullwidth_header_0{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#main-header #contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-header{
+    background-color: rgba(24, 222, 212) !important;
+    height: 60px;
+}
+
+#main-header{
+    line-height: 60px !important;
+}
+
+#social-icons{
+        position: relative;
+    width: auto;
+}
+
+#social-icons #fb-container{
+    position: absolute;
+    /* background: url(../images/sound_on.png) no-repeat; */
+    /* text-indent: -9999px; */
+    /* display: block; */
+    /* text-transform: none; */
+    width: 35px;
+    /* height: 25px; */
+    top: 10px;
+    right: 75px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#social-icons #twitter-container{
+    position: absolute;
+    /* background: url(../images/sound_on.png) no-repeat; */
+    /* text-indent: -9999px; */
+    /* display: block; */
+    /* text-transform: none; */
+    width: 35px;
+    /* height: 25px; */
+    top: 10px;
+    right: 42px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#social-icons #insta-container{
+    position: absolute;
+    /* background: url(../images/sound_on.png) no-repeat; */
+    /* text-indent: -9999px; */
+    /* display: block; */
+    /* text-transform: none; */
+    width: 35px;
+    /* height: 25px; */
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#who-we-are{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo-header img{
+    width: 6%;
+    position: absolute;
+}
+
+.et_pb_section_2{
+    height: 420px !important;
+}
+
+.et_pb_section_3 .section{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.parag-circuit{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+
+.parag-rouge{
+    color: #ff3a00 !important;
+}
+
+#circuits h1{
+font-weight: bold !important;
+font-size: 50px;
+}
+.et_pb_section_3 .header-content{margin:auto !important;}
+
+#et_pb_contact_name_1, #et_pb_contact_phone_number_1, #et_pb_contact_email_1{
+    height: 40px;
+}
+
+#et_pb_contact_messsage_1{
+    height: 120px;
+}
+
+.et_pb_contact_field{
+    margin: 0px !important;
+}
+
+.et_contact_bottom_container{
+    width: 100%;
+}
+
+.et_pb_contact_submit.et_pb_button{
+    width: 97%;
+    position: relative;
+    right: 5px;
+}
+
+.et-pb-contact-message{
+    color: #fff !important;
+}
+
+.et_pb_contact p input, .et_pb_contact p textarea{
+    color: #555 !important;
+    font-style: italic;
+}
+
+#contacts p, #socials p{
+    margin: 0px !important;
+    color: #fafafa ;
+}
+
+#contacts p i, #socials p i{
+    margin-right: 8px;
+    color: #18ded4;
+}
+
+#video-nav ul.nav li a{
+    font-size: 12px;
+}
+
+#video-nav ul.nav li{
+  margin-bottom:  6px !important;
+}
+
+#navigation-toggle{
+    transform: rotate(0deg) !important;
+    text-align: left !important;
+    margin-left: 10px;
+    font-weight: bold !important;
+}
+
+#flyin h1{
+    font-size: 40px !important;
+    text-transform: uppercase;
+
+font-weight: bold;
+
+font-style: italic;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+#flyin-secondary{
+    top: 325px !important;
+    font-style: italic;
+}
+
+#ouest{
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+}
+
+#ouest:after{
+    content: '';
+    position: absolute;
+    bottom: 83px;
+    width: 38px;
+    height: 2px;
+    border: 1px solid #e9a300;
+    background: #e9a300;
+    top: 68px;
+    left: 0;
+}
+
+.overlay_on_fivecolumns span, .overlay_on_fivecolumns div, .overlay_fivecolumns span, .overlay_fivecolumns div{
+    font-weight: bold;
+    font-size: 20px;
+}
