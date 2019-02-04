@@ -90,7 +90,7 @@ Version: 0.1.0
     bottom: 0px; 
     height: 550px;
     visibility: hidden;
-    width: 270px;
+    width: 273px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +102,7 @@ Version: 0.1.0
     position: absolute;
     top: 0px;
     height: 420px;
-    width: 270px;
+    width: 273px;
 
     display: flex;
     justify-content: center;
@@ -425,4 +425,15 @@ font-family: 'Open Sans', sans-serif;
 .overlay_on_fivecolumns span, .overlay_on_fivecolumns div, .overlay_fivecolumns span, .overlay_fivecolumns div{
     font-weight: bold;
     font-size: 20px;
+}
+
+#ascrail2000{
+    width: 4px !important;
+    background: #ccc !important;
+    right: 10px !important;
+}
+
+#ascrail2000 div{
+    height: 10px !important;
+    right: -3px !important;
 }
